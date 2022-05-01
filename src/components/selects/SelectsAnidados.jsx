@@ -15,7 +15,6 @@ const SelectsAnidados = () => {
     return (
         <div>
             <h2>Selects Anidados</h2>
-            <h3>Meico</h3>
             <SelectList
                 title="estado"
                 url={`https://api.copomex.com/query/get_estados?token=${TOKEN}`}
@@ -43,6 +42,7 @@ const SelectsAnidados = () => {
                 />
             )}
 
+            <p>Opciones Seleccionadas</p>
             <pre>
                 <code>
                     {state} - {town} - {suburb}
